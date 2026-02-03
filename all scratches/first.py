@@ -1,0 +1,6 @@
+import random
+a = int(input('Загадайте число Мистер: '))
+key = random.randint(a + 1, 10000000)
+
+crypt = a ^ key
+print(f"Зашифровано, Мистер: {crypt}")
